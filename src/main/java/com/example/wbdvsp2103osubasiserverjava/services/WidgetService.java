@@ -45,14 +45,6 @@ public class WidgetService {
     original.setSize(newWidget.getSize());
     repository.save(original);
     return 1;
-//    for (int i=0; i< widgets.size(); i++){
-//      Widget w = widgets.get(i);
-//      if(w.getId().equals(id)){
-//        widgets.set(i,newWidget);
-//        return 1;
-//      }
-//    }
-//    return -1;
   }
 
   public Integer deleteWidget(Long widgetId) {
